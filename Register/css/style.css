@@ -14,6 +14,13 @@
     background-color: #343A40 ;
     color:#fff;
 }
+body {
+  background: url('cart.jpg') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .main-form{
     padding-top: 5%;
     padding-left: 3.5%;
@@ -48,14 +55,14 @@ img{
 } */
 
 
- /* .flex-row {
+ .flex-row {
     display: flex;
     row-gap: 5px
   }
 
-  /* .flex-row :first-child {
-    width: 30%;
-  } */
+  .flex-row :first-child {
+    align-self:flex-end;
+  }
   /*
   .flex-row :second-child {
     width: 60%;
