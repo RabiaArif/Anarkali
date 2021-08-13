@@ -3,17 +3,37 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container {
+.container-main {
   padding-top: 3%;
   padding-left: 3%;
   padding-bottom: 3%;
   padding-right: 3%;
   
   margin-top: 4.5%;
+  /* margin-left: 15%; */
   margin-bottom: 3%;
   background-color: #343a40;
   color: #fff;
   width: 45%;
+}
+strong{
+  color:#CB9B48;
+}
+.grid-container{
+  margin-top: 0;
+  /* padding-top: 3%; */
+  padding-left: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  margin-bottom: 3%;
+  /* background-color: #343a40;
+  color: #fff; */
+  width: 45%;
+}
+.form-control-file{
+  background-color: #343a40;
+  border-color: #343a40;
+  color:honeydew;
 }
 .login_background{
   background: url("../images/cart.jpg") no-repeat center fixed;
@@ -35,7 +55,7 @@
   border-radius: 10px solid white; */
 }
 
-.main-form li{
+/* .main-form li{
   display: flex;
   padding: 5px 0;
 }
@@ -44,11 +64,11 @@
 }
 .main-form li label{
   flex:2;
-}
+} */
 .avatar {
-  background-color: #fff;
-  border-color: #fff;
-  box-shadow: 0 0 1px #ccc;
+  background-color: gray;
+  border-color: gray;
+  /* box-shadow: 0 0 0px red; */
   margin-bottom: 10px;
   width: 35%;
 }
@@ -56,7 +76,8 @@
   height: 50px;
 } */
 .btn-sign-in {
-  position: sticky;
+  background-color: #CB9B48;
+
 }
 
 /* .btn-sign-in{
