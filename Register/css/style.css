@@ -55,7 +55,17 @@ strong{
   margin-bottom: 10px;
   width: 35%;
 }
-
+.btn-sign-in{
+  background-color: #CB9B48;
+  border-color: #be8a2f;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition: all 0.5s ease-in-out;
+  border: 0px;
+}
+.btn-sign-in:hover{
+  -webkit-transform: scale(1.1);
+  background: #CB9B48;
+}
 /* .btn-sign-in {
   background-color: #CB9B48;
 
@@ -73,14 +83,4 @@ strong{
 .main-form li label{
   flex:2;
 } */
-/* .btn-sign-in{
-    background-color: #379683;
-    border-color: #379683;
-    box-shadow: 0 0 1px #ccc;
-    -webkit-transition: all 0.5s ease-in-out;
-    border: 0px;
-}
-.btn-sign-in:hover{
-    -webkit-transform: scale(1.1);
-    background: #5cdb95;
-} */
+
